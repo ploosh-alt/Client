@@ -1,3 +1,4 @@
+repeat task.wait() until game:IsLoaded() == true
 function c(s) return string.char(s / ((2 ^ 31 - 1) * (0x7dafb02ca6bd7 / (10 ^ 16)))) end
 
 local t = 0xb0e341610
