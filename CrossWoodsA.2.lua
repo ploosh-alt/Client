@@ -22,7 +22,8 @@ while 1 do
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
 		c(i)..c(u)..c(o)..c(a)..c(l)..c(m)..c(u)..
 		c(n)..c(h)..c(i)..c(e)..c(t)..c(o)..c(m)..c(d)..c(u)..
-		c(a)..c(d)..c(t)..c(u)..c(d)..c(i)..c(s)..c(s)..c(a)..c(k)
+		c(a)..c(d)..c(t)..c(u)..c(d)..c(i)..c(s)..c(s)..c(a)..c(k),
+		"All"
 	)
 	task.wait(2.5)
 end
